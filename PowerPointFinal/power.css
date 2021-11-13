@@ -1,0 +1,248 @@
+body {
+    font-family: 'merriweather', serif;
+}
+.homepage {
+    background-image: url(Assets/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 1024px;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    left: 0px;
+}
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content:space-around;
+}
+.main-grid {
+    display: grid;
+    grid-template-rows: 45vh 18vh 27vh;
+    grid-template-columns: 40vw 30vw 30vw;
+    max-height: 90vh;
+    width: 100%;
+}
+.text-box1,
+.text-box2,
+.text-box3,
+.text-box4,
+.text-box5,
+.text-box6,
+.text-boxy,
+.text-span {
+    background-color: rgb(255, 255, 255, .5);
+    padding:9px;
+    margin: 15px;
+    box-shadow: 0px 0px 6px 3px black;
+}
+.text-box1 {
+    font-size: 3.8em;
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.text-box2 {
+    font-size: 2em;
+}
+.text-box3 {
+    font-size: 1.5em;
+    line-height: 1.55em;
+    padding: 12px;
+    margin: 15px;
+    max-width: 28vw;
+}
+.text-span {
+    font-size: 2.75em;
+    grid-column: 1/ span 3;
+    grid-row: 1;
+    margin: 39px; 
+    max-height: 6vh;
+    max-width: 85vw;
+    text-align: center;
+}
+.text-boxy {
+    font-size: 2em;
+    margin-top: 195px;
+    margin-right: 35px;
+}
+.text-boxy1 {
+    grid-column: 1;
+    grid-row: 1/ span 3;
+    margin: 20px;
+    max-width: 30vw;
+}
+.text-box4 {
+    font-size: 1.5em;
+    padding: 18px; 
+    margin-top: 215px;
+    margin-left: 48px;
+    line-height: 1.7em;
+}
+.text-box5 {
+    font-size: 2.5em;
+    max-width: 30vw;
+    padding: 18px;
+    text-align: center;
+    margin: 15px;
+}
+.text-box6 {
+    font-size: 1.8em;
+    max-width: 35vw;
+    padding: 18px;
+    text-align: center;
+    margin: 15px;
+    margin-top: 30px;
+   
+}
+.me {
+    height:40vh;
+    margin-top: 30px;
+}
+.image1, 
+.image2,
+.image3,
+.image4,
+.image6,
+.image7 {
+    box-shadow: 0px 0px 15px 10px black;
+    margin: 15px; 
+}
+.image1 {
+    width: 20%;
+    height: auto;
+    
+}
+.image2 {
+    width: 35%;
+    height: auto;
+    margin:20px;
+}
+.image3 {
+    width: 80%;
+    height: auto;
+    background-color: rgb(255, 255, 255, .5);
+    margin: 50px 0px;
+}
+.image4 {
+    width: 48%;
+    height: auto;
+    max-width: 16vw;
+}
+.image5 {
+    width: 55%;
+    height: auto;
+    box-shadow: 0px 0px 15px 10px black;
+    margin: 5px;
+}
+.image6 {
+    width: 65%;
+    height: auto;
+    max-width: 20vw;
+}
+.image7 {
+    width: 75%;
+    height: auto;
+    max-width: 23vw;
+}
+.image8 {
+    width: 45%;
+    height: auto;
+    max-width: 12vw;  
+}
+.techmom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.techmom1 {
+    grid-column: 1/span 3;
+    grid-row: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    max-width:100%;
+}
+.techmom2 {
+    grid-column: 1/span 3;
+    grid-row: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    margin-left: 160px;
+    max-width:65%;
+}
+.techmomheader1 {
+    grid-column: 2/span 3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+.linked {
+    grid-column: 1;
+    grid-row: 1/span 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+.linked-tab {
+    margin-left: 20px;
+}
+.linked2 {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+.slcc-logo {
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 40px;
+}
+.list {
+    background-color: rgb(255, 255, 255, .5); 
+    font-size: 1.55em; 
+    box-shadow: 0px 0px 6px 3px black;
+    max-width: 40vw;
+    line-height: 1.56em;
+}
+.camp-projects {
+    grid-column: 2;
+    grid-row: 1/span 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+.camp-project-cert {
+    grid-column: 3;
+    grid-row: 1/span 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.nav-link {
+    padding: 15px;
+    color: #cccccc;
+    text-decoration: none;
+}
